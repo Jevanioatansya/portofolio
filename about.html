@@ -72,41 +72,6 @@
         margin: auto;
         padding: 0 20px;
     }
-
-    .placeholder img {
-        max-width: 100%; /* Gambar menyesuaikan lebar container */
-        height: auto;   /* Tinggi gambar proporsional */
-        object-fit: cover; /* Memastikan gambar tidak terdistorsi */
-    }
-
-    @media (max-width: 768px) {
-        /* Responsivitas untuk elemen dalam placeholder */
-        .placeholder {
-            padding: 20px;
-            text-align: center; /* Teks rata tengah */
-        }
-
-        .placeholder div {
-            flex-direction: column; /* Kolom untuk layar kecil */
-            gap: 10px;
-        }
-
-        .placeholder img {
-            height: auto; /* Hapus batasan tinggi pada layar kecil */
-        }
-    }
-
-    @media (max-width: 576px) {
-        /* Responsivitas lebih kecil */
-        .container h1 {
-            font-size: 1.8rem; /* Kurangi ukuran heading */
-        }
-
-        .placeholder img {
-            width: 100%; /* Gambar memenuhi layar kecil */
-            height: auto;
-        }
-    }
     </style>
 </head>
 
