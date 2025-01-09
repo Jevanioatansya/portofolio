@@ -18,53 +18,12 @@
             transition: top 0.3s ease-in-out;
         }
 
-        @media (max-width: 768px) {
-        .nav-ul {
-            flex-direction: column;
-            background: #fff;
-            position: absolute;
-            top: 60px;
-            right: 0;
-            width: 100%;
-            display: none; /* Default tersembunyi */
-        }
-
-        .nav-ul li {
-            margin: 10px 0;
-            text-align: center;
-        }
-
-        .hamburger {
-            display: block;
-            font-size: 24px;
-            cursor: pointer;
-        }
-    }
-
-    .hamburger {
-        display: none; /* Hanya muncul di layar kecil */
-    }
-
-    /* Responsivitas untuk Artikel */
-    @media (max-width: 992px) {
-        .article {
-            width: calc(50% - 20px); /* 2 kolom untuk layar sedang */
-        }
-    }
-
-    @media (max-width: 576px) {
-        .article {
-            width: 100%; /* 1 kolom untuk layar kecil */
-        }
-    }
-
     </style>
 </head>
 
 <body>
     <!-- Header -->
     <header class="navbar" id="navbar">
-        <div class="hamburger" onclick="toggleNav()">☰</div>
         <div class="logo">
             <strong>Ong, Jevanio Atansya</strong>
         </div>
